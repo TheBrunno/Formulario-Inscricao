@@ -1,0 +1,51 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 50px auto;
+}
+main{
+    margin-left: 50px;
+}
+figure > img{
+    width: 600px;
+}
+form > label, input{
+    display: block;
+}
+h1{
+    text-align: center;
+}
+label{
+    font-weight: 600;
+    margin-top: 20px;
+    color: #222222;
+    font-size: 1.1em;
+}
+input{
+    border: none;
+    background-color: inherit;
+}
+input[type="text"], input[type="password"]{
+    border-bottom: 2px solid #222222;
+    width: 300px;
+    transition: 0.4s;
+    font-size: 1em;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    border-color: #8c50ff;
+}
+input[type="button"]{
+    width: 90%;
+    margin: 10px auto;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #dadada;
+    border-radius: 25px;
+    transition: 0.6s;
+}
+input[type="button"]:hover{
+    background-color: #8c50ff;
+    color: white;
+}
