@@ -49,3 +49,9 @@ input[type="button"]:hover{
     background-color: #8c50ff;
     color: white;
 }
+main a{
+    color: #8c50ff;
+}
+main a:hover{
+    color: #7240cf;
+}
